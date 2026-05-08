@@ -1,0 +1,13 @@
+{
+  "product": "study-timer-review-mockexam-web",
+  "title": "学習タイマー・復習・模試Web",
+  "domain": "WebApp",
+  "ideaNo": 2,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
