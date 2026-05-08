@@ -1,0 +1,90 @@
+{
+  "product": "study-timer-review-mockexam-web",
+  "generatedAt": "2026-05-08T00:02:50Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "学習タイマー・復習・模試Web",
+          "duration": "学習タイマー・復習・模試Web duration",
+          "nextAction": "今日の学習タイマーから次回復習と模試予定を作る",
+          "reviewDate": "学習タイマー・復習・模試Web reviewDate",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "duration": "学習タイマー・復習・模試Web duration",
+          "nextAction": "今日の学習タイマーから次回復習と模試予定を作る",
+          "reviewDate": "学習タイマー・復習・模試Web reviewDate",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "学習タイマー・復習・模試Web",
+          "duration": "学習タイマー・復習・模試Web duration",
+          "nextAction": "今日の学習タイマーから次回復習と模試予定を作る",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "学習タイマー・復習・模試Web",
+          "duration": "学習タイマー・復習・模試Web duration",
+          "nextAction": "今日の学習タイマーから次回復習と模試予定を作る",
+          "reviewDate": "学習タイマー・復習・模試Web reviewDate",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "学習タイマー・復習・模試Web",
+          "duration": "学習タイマー・復習・模試Web duration",
+          "reviewDate": "学習タイマー・復習・模試Web reviewDate",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "学習タイマー・復習・模試Web",
+          "duration": "学習タイマー・復習・模試Web duration",
+          "nextAction": "今日の学習タイマーから次回復習と模試予定を作る",
+          "weaknessTag": "学習タイマー・復習・模試Web weaknessTag",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}
