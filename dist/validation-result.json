@@ -1,7 +1,7 @@
 {
   "product": "study-timer-review-mockexam-web",
   "domain": "WebApp",
-  "generatedAt": "2026-05-08T00:03:03.691Z",
+  "generatedAt": "stable-validation-run",
   "totals": {
     "passes": 2,
     "failures": 2,
