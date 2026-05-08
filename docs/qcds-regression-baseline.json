@@ -1,7 +1,7 @@
 {
   "product": "study-timer-review-mockexam-web",
   "tag": "v0.1.0-alpha.1",
-  "generatedAt": "2026-05-08T00:02:50Z",
+  "generatedAt": "2026-05-08T00:03:03Z",
   "commands": [
     "cmd.exe /d /s /c npm test",
     "node src/cli/index.js samples/representative-suite.json"
